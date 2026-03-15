@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bocao Express</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#fff6f0;
+color:#333;
+}
+
+/* PORTADA */
+
+header{
+background: linear-gradient(135deg,#ff7a00,#ffb347);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+header h1{
+font-size:50px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+margin-top:10px;
+}
+
+.logo{
+width:120px;
+margin-bottom:20px;
+}
+
+/* SECCIONES */
+
+section{
+padding:60px 10%;
+}
+
+section h2{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+color:#ff7a00;
+}
+
+/* TARJETAS */
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+width:250px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+/* EQUIPO */
+
+.team{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.member{
+background:white;
+padding:20px;
+border-radius:12px;
+width:200px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.member img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.member-images{
+display:flex;
+gap:10px;
+margin-bottom:10px;
+}
+
+.member-images img{
+width:50%;
+height:140px;
+object-fit:cover;
+border-radius:10px;
+}
+
+/* GALERIA */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* CONTACTO */
+
+.contact{
+text-align:center;
+font-size:18px;
+}
+
+.contact a{
+color:#ff7a00;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- PORTADA -->
+
+<header>
+
+<img src="assets/img/logo.png" class="logo">
+
+<h1>Bocao Express</h1>
+
+<p>El sabor que llega rápido</p>
+
+<p>Un proyecto creado para ofrecer comida deliciosa, rápida y accesible.</p>
+
+</header>
+
+<!-- SOBRE EL PROYECTO -->
+
+<section>
+
+<h2>Sobre el Proyecto</h2>
+
+<p style="text-align:center; max-width:800px; margin:auto;">
+
+Bocao Express es un proyecto escolar enfocado en ofrecer alimentos
+rápidos, deliciosos y accesibles para todos. Nuestro objetivo es
+combinar calidad, rapidez y buen servicio para brindar una
+experiencia agradable a nuestros clientes.
+
+Este proyecto nace con la idea de demostrar cómo un pequeño
+emprendimiento puede organizarse, planificarse y ofrecer un
+producto atractivo dentro del entorno educativo.
+
+</p>
+
+<!-- EQUIPO -->
+
+<section>
+
+<h2>Nuestro Equipo</h2>
+
+<div class="team">
+
+<div class="member">
+<img src="assets/img/Janiel.png" alt="Janiel Aquino">
+<h3>Janiel Aquino</h3>
+<p>Propietario</p>
+</div>
+
+<div class="member">
+<img src="assets/img/Randell.png" alt="Randell Miguel">
+<h3>Randell Miguel</h3>
+<p>Gerente</p>
+</div>
+
+<div class="member">
+<div class="member-images">
+<img src="assets/img/Edward.png" alt="Edward Miguel">
+<img src="assets/img/Irianna.png" alt="Irianna Arias">
+</div>
+<h3>Edward Miguel</h3>
+<h3>Irianna Arias</h3>
+<p>Cheff</p>
+</div>
+
+<div class="member">
+<div class="member-images">
+<img src="assets/img/Lubenso.png" alt="Lubenso Jean">
+<img src="assets/img/Stiven.png" alt="Stiven Gonzales">
+</div>
+<h3>Lubenso Jean</h3>
+<h3>Stiven Gonzales</h3>
+<p>Meseros</p>
+</div>
+
+<div class="member">
+<img src="assets/img/Jose.png" alt="Jose Miguel">
+<h3>Jose Miguel</h3>
+<p>Delivery</p>
+</div>
+
+<div class="member">
+<img src="https://via.placeholder.com/200x180/FFC857/333333?text=Juan+Emmanuel" alt="Juan Emmanuel">
+<h3>Juan Emmanuel</h3>
+<p>Cajero</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section>
+
+<h2>Galería</h2>
+
+<div class="gallery">
+
+<img src="assets/img/restaurants1.png">
+<img src="assets/img/restaurants2.png">
+<img src="assets/img/restaurants3.png">
+<img src="assets/img/restaurants4.png">
+
+</div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section>
+
+<h2>Contacto</h2>
+
+<div class="contact">
+
+<p>¿Tienes preguntas o deseas hacer un pedido?</p>
+
+<p>📱 WhatsApp: <a href="https://wa.me/1234567890">809-000-0000</a></p>
+
+<p>📷 Instagram: <a href="https://instagram.com/bocao0express">@bocao0express</a></p>
+
+<p>📧 Correo: <a href="mailto:bocao0express@gmail.com">bocao0express@gmail.com</a></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Tarjeta informativa • Bocao Express</p>
+
+</footer>
+
+</body>
+</html>
